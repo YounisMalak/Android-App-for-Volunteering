@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/services_for_manager"
+        android:title="@string/services"
+        android:icon="@drawable/ic_nav_service"/>
+
+    <item
+        android:id="@+id/volunteers_for_manager"
+        android:title="@string/volunteer"
+        android:icon="@drawable/ic_nav_volunteer"/>
+
+    <item
+        android:id="@+id/residents_for_manager"
+        android:title="@string/resident"
+        android:icon="@drawable/ic_nav_resident"/>
+
+</menu>

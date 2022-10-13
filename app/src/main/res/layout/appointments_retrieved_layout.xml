@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="10dp"
+    android:elevation="10dp"
+    app:cardCornerRadius="10dp"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    android:layout_marginBottom="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="5dp">
+
+            <TextView
+                android:id="@+id/dateBookedTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="June 20, 2022"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:layout_marginStart="10dp"
+                />
+
+
+            <ImageView
+                android:id="@+id/more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:src="@drawable/ic_more"
+                />
+
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Resident Details"
+            android:textAllCaps="true"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:gravity="center"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:orientation="horizontal">
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/residentImageView"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="5dp"/>
+                <TextView
+                    android:id="@+id/residentName"
+                    android:layout_toEndOf="@+id/residentImageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Kill Bill"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:layout_marginStart="5dp"
+                    android:textSize="17sp"/>
+                <TextView
+                    android:id="@+id/residentEmail"
+                    android:layout_toEndOf="@+id/residentImageView"
+                    android:layout_below="@+id/residentName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="kill_bill@gmail.com"
+                    android:textColor="#000"
+                    android:layout_marginStart="5dp"
+                    android:textSize="15sp"/>
+                <TextView
+                    android:id="@+id/residentPhone"
+                    android:layout_toEndOf="@+id/residentImageView"
+                    android:layout_below="@+id/residentEmail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0502998871"
+                    android:textColor="#000"
+                    android:layout_marginStart="5dp"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:id="@+id/residentDescription"
+                    android:layout_toEndOf="@+id/residentImageView"
+                    android:layout_below="@+id/residentPhone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0505678098"
+                    android:textColor="#000"
+                    android:layout_marginStart="5dp"
+                    android:textSize="15sp"/>
+            </RelativeLayout>
+
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/volunteerTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Volunteer Details"
+            android:textAllCaps="true"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:visibility="gone"
+            android:gravity="center"/>
+        <LinearLayout
+            android:id="@+id/volunteerDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:visibility="gone"
+            android:orientation="horizontal">
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/volunteerImageView"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"/>
+                <TextView
+                    android:id="@+id/volunteerName"
+                    android:layout_toEndOf="@+id/volunteerImageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="James Bond"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:layout_marginStart="5dp"
+                    android:textSize="17sp"/>
+                <TextView
+                    android:id="@+id/volunteerEmail"
+                    android:layout_toEndOf="@+id/volunteerImageView"
+                    android:layout_below="@+id/volunteerName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="james007@gmail.com"
+                    android:textColor="#000"
+                    android:layout_marginStart="5dp"
+                    android:textSize="15sp"/>
+                <TextView
+                    android:id="@+id/volunteerPhone"
+                    android:layout_toEndOf="@+id/volunteerImageView"
+                    android:layout_below="@+id/volunteerEmail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0725678098"
+                    android:textColor="#000"
+                    android:layout_marginStart="5dp"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:id="@+id/serviceName"
+                    android:layout_toEndOf="@+id/volunteerImageView"
+                    android:layout_below="@+id/volunteerPhone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cleaning"
+                    android:textColor="#000"
+                    android:layout_marginStart="5dp"
+                    android:textSize="15sp"/>
+
+            </RelativeLayout>
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/appointmentTimeTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Appointment Time: 7-9 AM"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_marginTop="5dp"
+            android:visibility="gone"
+            android:gravity="center"/>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

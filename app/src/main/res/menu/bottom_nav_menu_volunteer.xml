@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/all_services_for_volunteer_to_volunteering"
+        android:title="@string/services_for_volunteering"
+        android:icon="@drawable/ic_nav_services_for_volunteering"/>
+
+    <item
+        android:id="@+id/your_services_for_volunteer"
+        android:title="@string/your_services"
+        android:icon="@drawable/ic_nav_your_services"/>
+
+
+</menu>

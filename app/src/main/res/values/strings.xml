@@ -1,0 +1,113 @@
+<resources>
+    <string name="app_name">MishanApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="the_largest_leading_network_of_senior_living_facilities">The largest leading network of senior living facilities</string>
+    <string name="welcome_to_mishan">Welcome To Mishan</string>
+    <string name="login_as">Login As:</string>
+    <string name="manager">Manager</string>
+    <string name="volunteer">Volunteers</string>
+    <string name="resident">Residents</string>
+    <string name="title_activity_manager">Manager_Activity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="services">Services</string>
+    <string name="all_services">All Services</string>
+    <string name="your_services">Your Services</string>
+    <string name="services_for_volunteering">Services for volunteering</string>
+    <string name="add">ADD</string>
+    <string name="view_services">View services</string>
+    <string name="add_service">Add Service</string>
+    <string name="delete">Delete</string>
+    <string name="save">Save</string>
+    <string name="do_you_want_to_delete_this_service">Do you want to delete this service?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="view_residents">View residents</string>
+    <string name="add_resident">Add resident</string>
+    <string name="enter_resident_name">Enter resident name</string>
+    <string name="login">Login</string>
+    <string name="all_residents">All residents</string>
+    <string name="all_volunteers">All volunteers</string>
+    <string name="mishan_app">Mishan App</string>
+    <string name="enter_volunteer_name">Enter volunteer name</string>
+    <string name="enter_resident_address">Enter resident address</string>
+    <string name="enter_volunteer_address">Enter volunteer address</string>
+    <string name="add_volunteer">Add volunteer</string>
+    <string name="view_volunteers">View volunteers</string>
+    <string name="request">Request</string>
+    <string name="cancel">Cancel</string>
+    <string name="enter_your_email">Enter your email</string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="sign_in_now">Sign In Now</string>
+    <string name="don_t_have_an_account_signup">Don\'t have an account? Signup</string>
+    <string name="login_now">login now</string>
+    <string name="select_one">Select One</string>
+    <string name="resident_registration">Resident Registration</string>
+    <string name="already_have_an_account_login">Already have an account? Login</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="enter_your_phone_number">Enter your phone number</string>
+    <string name="enter_your_address">Enter your address</string>
+    <string name="register_now">Register Now</string>
+    <string name="volunteer_registration">Volunteer Registration</string>
+    <string name="admin_login_page">Admin Login Page</string>
+    <string name="sign_in_to_continue">Sign in to continue</string>
+    <string name="go_back">Go back</string>
+    <string name="register_to_mishan">Register to Mishan</string>
+    <string name="opennavigationdrawer">Open navigation drawer</string>
+    <string name="closenavigationdrawer">Close navigation drawer</string>
+    <string name="forgot_password">forgot password ?</string>
+    <string name="reset_password">Reset password</string>
+    <string name="change_profile_image">Change profile image</string>
+    <string name="select_a_volunteer_to_assign_for_resident">Select a volunteer to assign for resident</string>
+    <string name="assign_this_volunteer_to_this_resident">Assign this volunteer To This resident?</string>
+    <string name="adding_service">Adding service</string>
+    <string name="enter_service_name">Enter service name</string>
+    <string name="add_now">Add Now</string>
+    <string name="are_you_sure">Are you sure?</string>
+    <string name="sign_in_failed_try_again">\"Sign in process failed, please try again \"</string>
+    <string name="you_not_admin">You are not an admin, Please login in on the login page</string>
+    <string name="admin_login_successful">Admin Login Successful</string>
+    <string name="all_users">All Users</string>
+    <string name="user_registration">User Registration</string>
+    <string name="enter_user_s_phone_number">Enter user\'s phone number</string>
+    <string name="enter_user_s_address">Enter user\'s address</string>
+    <string name="enter_user_s_email">Enter user\'s email</string>
+    <string name="enter_user_s_password">Enter user\'s password</string>
+    <string name="register_user_now">Register User Now</string>
+    <string name="enter_user_s_type_resident_volunteer">Enter user\'s type (resident/volunteer)</string>
+    <string name="enter_user_s_name">Enter user\'s name</string>
+    <string name="okay">Okay</string>
+    <string name="signin_process_failed_try_again">\"Sign in process failed, please try again \"</string>
+    <string name="details_set_successfully">Details set successfully on Firestore</string>
+    <string name="details_upload_failed">Details upload Failed on Firestore</string>
+    <string name="registration_successful">Registration successful</string>
+    <string name="registration_failed">Registration failed </string>
+    <string name="deleted_successfully">Deleted successfully from Firestore</string>
+    <string name="added_successfully">added successfully to Firestore</string>
+    <string name="do_you_want_to_delete_this_volunteer">Do you want to delete this volunteer?</string>
+    >
+
+
+    <string-array name="users_type_frames">
+        <item>Select type of user</item>
+        <item>resident</item>
+        <item>volunteer</item>
+    </string-array>
+
+    <string-array name="timeframes">
+        <item>Select time you are available</item>
+        <item>7:00-9:00</item>
+        <item>9:00-11:00</item>
+        <item>11:00-13:00</item>
+        <item>13:00-15:00</item>
+        <item>15:00-17:00</item>
+        <item>17:00-19:00</item>
+    </string-array>
+</resources>

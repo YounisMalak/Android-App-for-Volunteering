@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "154695937607",
+    "project_id": "mishan-system",
+    "storage_bucket": "mishan-system.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:154695937607:android:035b7c80fc24fbda720b62",
+        "android_client_info": {
+          "package_name": "com.example.newprojectmishanxx"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "154695937607-mm48muurclo0qsiaebe17prb64jq3rhb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.newprojectmishanxx",
+            "certificate_hash": "f060106b6e6f1432cc928da077f3d55c20ca967b"
+          }
+        },
+        {
+          "client_id": "154695937607-nfqr1lquaid9vebe4as5a9dfnsvfiru1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlHQ9p69gHFCuleK9rkabu_dQOR0seYVk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "154695937607-nfqr1lquaid9vebe4as5a9dfnsvfiru1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

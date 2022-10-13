@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/all_services_for_resident"
+        android:title="@string/all_services"
+        android:icon="@drawable/ic_nav_service"/>
+
+    <item
+        android:id="@+id/your_services_for_resident"
+        android:title="@string/your_services"
+        android:icon="@drawable/ic_nav_your_services"/>
+
+</menu>

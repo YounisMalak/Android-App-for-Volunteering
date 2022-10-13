@@ -1,0 +1,127 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context="Fragments.Admin_login_fragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/mishan_eng"
+            android:layout_gravity="center"
+            android:layout_marginTop="0dp"/>
+
+        <TextView
+            android:id="@+id/title"
+            android:text="@string/admin_login_page"
+            android:textColor="#000"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/slogan"
+            android:text="@string/sign_in_to_continue"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            android:layout_marginBottom="20dp">
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:boxStrokeColor="#000"
+                android:layout_marginTop="20dp"
+                android:theme="@style/TextInputLayoutStyle"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                app:hintTextAppearance="@color/design_default_color_primary">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/adminRegistrationEmail"
+                    android:hint="@string/enter_your_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableStart="@drawable/ic_mail"
+                    android:drawablePadding="10dp"
+                    android:inputType="textEmailAddress"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:textColorHint="#000"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:boxStrokeColor="#000"
+                android:layout_marginTop="20dp"
+                android:theme="@style/TextInputLayoutStyle"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                app:hintTextAppearance="@color/design_default_color_primary">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/adminLoginPassword"
+                    android:hint="@string/enter_your_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableStart="@drawable/ic_lock"
+                    android:drawablePadding="10dp"
+                    android:inputType="textPassword"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:textColorHint="#000"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <Button
+                android:id="@+id/adminLoginButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sign_in_now"
+                android:layout_margin="20dp"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:background="@drawable/buttons_background"/>
+
+            <TextView
+                android:id="@+id/adminBackBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Back to home"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="30dp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:textSize="17sp"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

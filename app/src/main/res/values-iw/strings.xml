@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">New Project Mishan xx</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="the_largest_leading_network_of_senior_living_facilities">The largest leading network of senior living facilities</string>
+    <string name="welcome_to_mishan">ברוך הבא למשען</string>
+    <string name="login_as">התחבר כ:</string>
+    <string name="manager">מנהל</string>
+    <string name="volunteer">מתנדבים</string>
+    <string name="resident">דיירים</string>
+    <string name="title_activity_manager">פעילות_מנהל</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">קטע ראשון</string>
+    <string name="second_fragment_label">קטע שני</string>
+    <string name="next">הבא</string>
+    <string name="previous">הקודם</string>
+    <string name="hello_first_fragment">שלום קטע ראשון</string>
+    <string name="services">שירותים</string>
+    <string name="all_services">כל השירותים</string>
+    <string name="your_services">כל השירותים</string>
+    <string name="services_for_volunteering">שירותי התנדבות</string>
+    <string name="add">הוסף</string>
+    <string name="view_services">צפה בשירותים</string>
+    <string name="add_service">הוסף שירות</string>
+    <string name="delete">מחיקה</string>
+    <string name="save">שמירה</string>
+    <string name="do_you_want_to_delete_this_service">האם ברצונך למחוק שירות זה?</string>
+    <string name="yes">כן</string>
+    <string name="no">לא</string>
+    <string name="view_residents">צפיה בדיירים</string>
+    <string name="add_resident">הוסף דייר</string>
+    <string name="enter_resident_name">הזן שם דייר</string>
+    <string name="login">התחבר</string>
+    <string name="all_residents">כל הדיירים</string>
+    <string name="all_volunteers">כל המתנדבים</string>
+    <string name="mishan_app">אפליקציית משען</string>
+    <string name="enter_volunteer_name">הזן את שם המתנדב</string>
+    <string name="enter_resident_address">הזן כתובת דייר</string>
+    <string name="enter_volunteer_address">הזן כתובת מתנדב</string>
+    <string name="add_volunteer">הוסף מתנדב</string>
+    <string name="view_volunteers">צפה במתנדבים</string>
+    <string name="request">בקשה</string>
+    <string name="cancel">ביטול</string>
+    <string name="enter_your_email">הזן את האימייל שלך</string>
+    <string name="enter_your_password">הזן את הסיסמה שלך</string>
+    <string name="sign_in_now">התחבר עכשיו</string>
+    <string name="don_t_have_an_account_signup">אין לך חשבון? הירשם</string>
+    <string name="login_now">התחבר עכשיו</string>
+    <string name="select_one">תבחר אחד</string>
+    <string name="resident_registration">רישום דייר</string>
+    <string name="already_have_an_account_login">כבר יש לך חשבון? התחבר</string>
+    <string name="enter_your_name">הזן את שמך</string>
+    <string name="enter_your_phone_number">הזן את מספר הטלפון שלך</string>
+    <string name="enter_your_address">הזן את כתובתך</string>
+    <string name="register_now">הירשם עכשיו</string>
+    <string name="volunteer_registration">רישום מתנדבים</string>
+    <string name="admin_login_page">דף התחברות של מנהל מערכת</string>
+    <string name="sign_in_to_continue">התחבר כדי להמשיך</string>
+    <string name="go_back">חזרה</string>
+    <string name="register_to_mishan">הרשמה למשען</string>
+    <string name="opennavigationdrawer">פתח את מגירת הניווט</string>
+    <string name="closenavigationdrawer">סגור את מגירת הניווט</string>
+    <string name="forgot_password">שכחת את הסיסמא?</string>
+    <string name="reset_password">אפס את הסיסמה</string>
+    <string name="change_profile_image">שנה תמונת פרופיל</string>
+    <string name="select_a_volunteer_to_assign_for_resident">בחר מתנדב לשבץ לדייר</string>
+    <string name="assign_this_volunteer_to_this_resident">לשבץ את המתנדב לדייר?</string>
+    <string name="adding_service">הוספת שירות</string>
+    <string name="enter_service_name">הזן את שם השירות</string>
+    <string name="add_now">הוסף כעת</string>
+    <string name="are_you_sure">האם אתה בטוח?</string>
+    <string name="sign_in_failed_try_again">\"תהליך הכניסה נכשל, אנא נסה שוב \"</string>
+    <string name="you_not_admin">אתה לא מנהל, אנא התחבר בדף הכניסה</string>
+    <string name="admin_login_successful">Admin Login Successful</string>
+    <string name="all_users">All Users</string>
+    <string name="user_registration">User Registration</string>
+    <string name="enter_user_s_phone_number">הזן את מספר הטלפון של המשתמש</string>
+    <string name="enter_user_s_address">הזן את כתובת המשתמש</string>
+    <string name="enter_user_s_email">הזן את האימייל של המשתמש</string>
+    <string name="enter_user_s_password">הזן את סיסמת המשתמש</string>
+    <string name="register_user_now">הרשמה משתמש עכשיו</string>
+    <string name="enter_user_s_type_resident_volunteer">הזן את סוג המשתמש (תושב/מתנדב)</string>
+    <string name="enter_user_s_name">הזן את שם המשתמש</string>
+    <string name="okay">בסדר</string>
+    <string name="signin_process_failed_try_again">תהליך הכניסה נכשל, אנא נסה שוב</string>
+    <string name="details_set_successfully">הפרטים הוגדרו בהצלחה ב-Firestore</string>
+    <string name="details_upload_failed">העלאת הפרטים נכשלה ב-Firestore</string>
+    <string name="registration_successful">ההרשמה בוצעה בהצלחה</string>
+    <string name="registration_failed">הרשמה נכשלה</string>
+    <string name="deleted_successfully">נמחק בהצלחה מ-Firestore</string>
+    <string name="added_successfully">נוסף בהצלחה ל-Firestore</string>
+    <string name="do_you_want_to_delete_this_volunteer">האם אתה רוצה למחוק את המתנדב הזה?</string>
+    >
+
+
+    <string-array name="timeframes">
+        <item>בחר זמן שאתה זמין</item>
+        <item>7:00-9:00</item>
+        <item>9:00-11:00</item>
+        <item>11:00-13:00</item>
+        <item>13:00-15:00</item>
+        <item>15:00-17:00</item>
+        <item>17:00-19:00</item>
+    </string-array>
+</resources>
